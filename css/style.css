@@ -6,7 +6,7 @@
 
 body{
     height: 100vh;
-    background: #ffffff;
+    background: url('../images/background.PNG');
 	font-family: 'Permanent Marker', cursive;
 	font-size: 16px;
     display: flex;
@@ -16,7 +16,6 @@ body{
 }
 
 .heading {
-    margin: 20px;
     font-size: 4em;
 }
 .timer {
@@ -24,8 +23,8 @@ body{
 	margin: 0 1rem;
 }
 .memory-game{
-    width: 600px;
-    height: 540px;
+    width: 550px;
+    height: 500px;
     display: flex;
     flex-wrap: wrap;
     box-shadow: 8px 9px 26px 0 rgba(46, 61, 73, 0.5);
